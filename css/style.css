@@ -1,0 +1,42 @@
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(162, 113, 207, 0.691);
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+img {
+height: 100px;
+
+}
+.item{
+    background-color: rgba(122, 230, 194, 0.787);
+    margin: 15px;
+    padding: 15px;
+   }
+
+.shrek {
+    order: 5;
+    align-self: center ;
+}
+
+.burro {
+    order: 3;
+    align-self: center;
+}
+
+.fiona {
+    order: 1;
+}
+
+.gato {
+    order: 2;
+    align-self: flex-end;
+}
+
+.pinocho{
+    order: 4;
+    align-self: flex-start;
+}
